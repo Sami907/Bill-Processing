@@ -1,0 +1,308 @@
+    #menu
+{
+    /* border: 1px solid black; */
+    height: 40px;
+    box-shadow: 1px 1px 1px blue;
+    width: 900px;
+    left: 200px;
+    position: absolute;
+    top: 40px;
+}
+
+#h1
+{
+    font-size: larger;
+    font-weight: bold;
+    top: 10px;
+    position: absolute;
+    margin-left: 60px;  
+}
+
+#h2
+{
+    font-size: larger;
+    font-weight: bold;
+    top: 10px;
+    position: absolute;
+    margin-left: 300px;  
+}
+
+#h3
+{
+    font-size: larger;
+    font-weight: bold;
+    top: 10px;
+    position: absolute;
+    margin-left: 600px;  
+}
+
+#h4
+{
+    font-size: larger;
+    font-weight: bold;
+    top: 10px;
+    position: absolute;
+    margin-left: 800px;  
+}
+
+#list
+{
+    /* border: 1px solid black; */
+    position: absolute; 
+    width: 900px;
+    top: 80px;
+    left: 200px;   
+    height: 400px; 
+}
+
+#pr1
+{
+    font-size: larger;
+    position: absolute;
+    margin-left: 70px;
+    top: 15px;
+}
+
+#q1
+{
+    top: 15px;
+    position: absolute;
+    margin-left: 250px;
+    height: 20px;
+    border-radius: 20px;
+    outline: 0px;
+    border: 2px solid gray;
+}
+
+#r1
+{
+    font-size: larger;
+    position: absolute;
+    margin-left: 590px;
+    top: 15px;
+}
+
+#a1
+{
+    font-size: larger;
+    position: absolute;
+    margin-left: 820px;
+    top: 15px;
+}
+
+#line1
+{
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 1px blue;
+    top: 50px;
+    height: 2px;
+    position: absolute;
+    width: 899px;
+}
+
+#pr2
+{
+    font-size: larger;
+    position: absolute;
+    margin-left: 30px;
+    top: 70px;
+}
+
+#q2
+{
+    top: 70px;
+    position: absolute;
+    margin-left: 250px;
+    height: 20px;
+    border-radius: 20px;
+    outline: 0px;
+    border: 2px solid gray;     
+}
+
+#r2
+{
+    font-size: larger;
+    position: absolute;
+    margin-left: 590px;
+    top: 70px;
+}
+
+#a2
+{
+    font-size: larger;
+    position: absolute;
+    margin-left: 820px;
+    top: 70px;
+}
+
+#line2
+{
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 1px blue;
+    top: 106px;
+    height: 2px;
+    position: absolute;
+    width: 899px;
+}
+
+#pr3
+{
+    font-size: larger;
+    position: absolute;
+    margin-left: 30px;
+    top: 125px;
+}
+
+#q3
+{
+    top: 125px;
+    position: absolute;
+    margin-left: 250px;
+    height: 20px;
+    border-radius: 20px;
+    outline: 0px;
+    border: 2px solid gray;     
+}
+
+#r3
+{
+    font-size: larger;
+    position: absolute;
+    margin-left: 590px;
+    top: 125px;
+}
+
+#a3
+{
+    font-size: larger;
+    position: absolute;
+    margin-left: 820px;
+    top: 125px;
+}
+
+#line3
+{
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 1px blue;
+    top: 159px;
+    height: 2px;
+    position: absolute;
+    width: 899px;
+}
+
+
+#pr4
+{
+    font-size: larger;
+    position: absolute;
+    margin-left: 30px;
+    top: 177px;
+}
+
+#q4
+{
+    top: 177px;
+    position: absolute;
+    margin-left: 250px;
+    height: 20px;
+    border-radius: 20px;
+    outline: 0px;
+    border: 2px solid gray;
+    /* border: none; */
+    /* box-shadow: 1px 1px 3px black;      */
+}
+
+#r4
+{
+    font-size: larger;
+    position: absolute;
+    margin-left: 590px;
+    top: 177px;
+}
+
+#a4
+{
+    font-size: larger;
+    position: absolute;
+    margin-left: 820px;
+    top: 177px;
+}
+
+#totl
+{
+    border: 1px solid black;
+    height: 40px;
+    position: absolute;
+    top: 220px;
+    width: 899px;
+}
+
+#lbl2
+{
+    font-weight: bold;
+    font-size: larger;
+    top: 10px;
+    position: absolute;
+    left: 630px;
+}
+
+#lbl3
+{
+    font-weight: bold;
+    font-size: larger;
+    top: 10px;
+    position: absolute;
+    left: 820px;
+}
+
+#btnCart
+{
+    position: absolute;
+    top: 270px;
+    left: 760px;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: large;
+    background-color: transparent;
+}
+
+#btnCart:hover
+{
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    transition: 0.4s;
+}
+
+#btnCart:not(:hover)
+{
+    transition: 0.4s;
+}
+
+#btnClear
+{
+    position: absolute;
+    top: 270px;
+    left: 660px;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: large;
+    background-color: transparent;
+}
+
+#btnClear:hover
+{
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    transition: 0.4s;
+}
+
+#btnClear:not(:hover)
+{
+    transition: 0.4s;
+}

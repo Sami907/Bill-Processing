@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bill</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="menu">
+      <label id="h1">Products</label>
+      <label id="h2">Quantity</label>
+      <label id="h3">Rate</label>
+      <label id="h4">Amount</label>
+    </div>
+    <div id="list">
+        <label id="pr1">Pizza</label>
+        <input type="number" id="q1">
+        <label id="r1">650.00</label>
+        <label id="a1"></label>
+        <div id="line1"></div>
+        <label id="pr2">Chicken Bucket</label>
+        <input type="number" id="q2">
+        <label id="r2">950.00</label>
+        <label id="a2"></label>
+        <div id="line2"></div>
+        <label id="pr3">Club Sandwich</label>
+        <input type="number" id="q3">
+        <label id="r3">260.00</label>
+        <label id="a3"></label>
+        <div id="line3"></div>
+        <label id="pr4">Crispy Burger</label>
+        <input type="number" id="q4">
+        <label id="r4">380.00</label>
+        <label id="a4"></label>
+        <div id="totl">
+          <label id="lbl2">Total Amount : </label>
+          <label id="lbl3"></label>
+        </div>
+        <button id="btnClear" onclick="Clear('')">New</button>
+        <button id="btnCart" onclick="CartProcess()">Cart</button>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
